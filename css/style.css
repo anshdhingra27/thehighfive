@@ -1,0 +1,513 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no_mrg{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+a,p,h1,h2,h3,h4,h5,h6{
+	font-family: 'Manrope', sans-serif;
+	font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+
+.mrg12{
+	margin-left: 10%;
+}
+
+.mrg_80{
+	padding: 80px 0 0 0;
+}
+
+.mrg_68{
+	padding: 68px 0 0 0;
+}
+
+.pd_12{
+	padding: 12px;
+}
+
+.pd_32{
+	padding: 32px 0 0 0;
+}
+
+.pd_48{
+	padding: 48px 0;
+}
+
+.carat_red{
+	color: #7F0615
+}
+
+.white_smoke{
+	color: #f7f7f7
+}
+
+.neutral_1{
+	color: #141718
+}
+.bg_1{
+	background:#FFF;
+}
+
+
+.neutral_2{
+	color: #343839
+}
+
+.neutral_3{
+	color: #6C7275
+}
+
+.neutral_4_bg{
+	background-color: #EFEFEF
+}
+
+h1{
+	font-size: 48px;
+	color: #7F0615;
+	text-align: center;
+	line-height: 100%;
+	padding-bottom: 12px;
+	font-weight: 600;
+}
+
+.sub_headings{
+	font-size: 16px;
+    letter-spacing: -2%;
+	line-height: 135%;
+	color: #343839;
+	text-align: center;
+	padding-bottom: 28px;
+}
+
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 999999;
+    background-color: transparent !important;
+    padding: 20px 0;
+}
+
+.navbar a{
+    font-size: 16px;
+    font-weight: 700;
+	line-height: 40px;
+	border-radius: 50px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f7f7f7; 
+}
+	
+.nav-link{
+	padding: 0 24px !important
+}
+
+.nav-link:hover{
+	background-color: #7F0615 !important;
+}
+	
+.nav-icons{
+	padding: 0 6px;
+}
+
+.nav_mrg{
+	margin-left: 20%;
+}
+
+.about_us{
+	font-size: 16px;
+    letter-spacing: 0.36;
+	line-height: 25px;
+	text-align: center;
+	padding: 20px 25%;
+	font-weight: 600;
+}
+
+.divyangana,
+.aparajita{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.divyangana img,
+.aparajita img {
+    max-width: 100%;
+    height: auto;
+}
+
+.divyangana h2,
+.aparajita h2{
+	font-size: 28px;
+	font-weight: 500;
+	padding: 32px 16px 16px 16px;
+}
+
+.divyangana p,
+.aparajita p{
+	font-size: 18px;
+}
+
+.shop-collection-button {
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;
+    padding: 8px 24px;
+    border: 1px solid #141718;
+	color: #141718;
+	font-size: 14px;
+	border-radius: 6px;
+	margin: 24px 0 32px 0;
+}
+
+.shop-collection-button:hover{
+	background: #7F0615;
+	color: #F7F7F7;
+	border: 1px solid #7F0615;
+}
+
+.categories{
+	background: #EFEFEF;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.categories_img{
+	padding-top: 25%;
+	margin-left: auto;
+	display: block;
+	width: 75%;
+	transition: 500ms;
+	transform-origin: bottom right;
+}
+
+.categories_content{
+	position: absolute;
+	top: 6%;
+    left: 12%;
+	z-index: 1
+}
+
+.categories_h2{
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 135%;
+	padding: 15px 0;
+}
+
+.categories_p{
+	font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.categories_a{
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: -2%;
+}
+
+.categories_content2{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+.categories2_img{
+	margin-left: auto;
+	display: block;
+	width: 46.6%;
+	transition: 500ms;
+	transform-origin: bottom right;
+}
+
+.categories:hover .categories_img{
+  transform: scale(1.1);
+}
+
+.categories:hover .categories2_img{
+  transform: scale(1.1);
+}
+
+.products{
+	width: 100%;
+	background-color: #EFEFEF;
+	border-radius: 12px;
+	overflow: hidden;
+	position: relative;
+}
+
+.products_content{
+	position: absolute;
+	top:70%;
+	left: 50%;
+    transform: translateX(-50%);
+	z-index: 1;
+}
+
+ .product-icons {
+    position: absolute;
+    right: -30%;
+    transition: 500ms;
+    z-index: 1;
+    top: 4%;
+}
+
+.prod_icon{
+    background: white;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 8px;
+}
+
+.prod_icon:nth-child(2) {
+    display: block;
+}
+
+.products:hover .product-icons {
+    right: 8px;
+}
+
+.products_img{
+	padding: 10%;
+	border-radius: 12px;
+	transition: 500ms;
+	z-index: 0;
+}
+
+.products_img:hover{
+	transform: scale(1.2);
+}
+
+.latest_products h3{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 28px;
+	padding: 14px 0 0 0;
+}
+
+.latest_products p{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 23px;
+	padding: 0px 0 14px 0;
+}
+
+
+.latest_products p span{
+	font-size: 12px;
+	font-weight: 300;
+	text-decoration: line-through;
+}
+
+.buy-now-button{
+	font-family: 'Manrope', sans-serif;
+	font-weight: 600;
+    padding: 7px 21px;
+    border: 1.5px solid #222227;
+	background: none;
+	color: #222227;
+	font-size: 14px;
+	border-radius: 6px;
+}
+
+.buy-now-button:hover{
+	background: #7F0615;
+	color: #F7F7F7;
+	border: 1px solid #7F0615;
+}
+
+.card{
+	border: none;
+	text-align: center;
+}
+
+.card-title{
+	font-size: 21px;
+	font-weight: 600;
+}
+
+.card-text{
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.stories_title{
+	font-size: 16px;
+}
+
+.stories_text{
+	font-size: 24px;
+	padding: 24px 15%;
+}
+
+.customer_care h6{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 12px 0;
+}
+
+.customer_care li{
+	list-style: none;
+}
+
+.customer_care a{
+	font-size: 16px;
+	text-decoration: none;
+	font-weight: 400;
+	color:  #6C7275;
+	line-height: 30px;
+}
+
+.input-group .form-control {
+	border: solid 1px #222227;
+}
+
+.btn-primary{
+    background-color: #141718;
+	border: none;
+}
+
+.subscribe-form input::placeholder {
+	font-family: 'Manrope', sans-serif;
+}
+
+.customer_care img{
+	padding-right: 8px;
+}
+.dis a{
+	height:50px;
+}
+.dis a:hover{
+	border-bottom:1px solid #FFF;
+		
+}
+
+
+@media (max-width: 991.98px){
+	
+	.about_us{
+	font-size: 16px;
+	padding: 20px 0%;
+}
+	
+	.stories_text{
+	font-size: 18px;
+	padding: 24px 15%;
+}
+	
+	.navbar{
+		background: bl
+	}
+	.bg_2{
+	background:#333;
+}
+.dis{
+	display:none;
+	
+}
+
+	
+@media (max-width: 575.98px) 
+{ 
+	
+	.mrg_80{
+		padding: 40px 0 0 0;
+	}
+	
+	.categories2_img{
+	width: 58%;
+	margin-top: 22%;
+}
+	
+	.categories_content2{
+	top: 24%;
+    left: 8%;
+}
+
+
+	h1{
+	font-size: 28px;
+}
+	
+	.sub_headings{
+	font-size: 12px;
+	padding-bottom: 12px
+}
+	
+	.about_us{
+	font-size: 12px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+	
+    .divyangana h2,
+    .aparajita h2{
+	font-size: 21px;
+}
+
+    .divyangana p,
+    .aparajita p{
+	font-size: 12px;
+}
+	
+	.shop-collection-button {
+	font-size: 12px;
+}
+	
+	.categories_h2{
+	font-size: 21px;
+}
+
+    .categories_p{
+	display: none;
+}
+
+    .categories_a{
+	font-size: 12px;
+}
+	
+	.categories_content2{
+	top: 24%;
+    left: 12%;
+	z-index: 1;
+	text-align: left;
+}
+
+.card-title{
+	font-size: 16px;
+}
+
+.stories_text{
+	font-size: 12px;
+	padding: 12px 2%;
+}
+
+.customer_care h6{
+	font-size: 16px;
+}
+	
+.customer_care a{
+	font-size: 12px;
+	line-height: 15px;
+}
+	
+.customer_care_p{
+	font-size: 12px;
+}
+
+.pd_32{
+	padding: 16px 0 0 0 
+}
+	
+	
+}
+}
